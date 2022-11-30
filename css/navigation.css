@@ -1,0 +1,87 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.menus {
+    position: fixed;
+    display:flex;
+    justify-content: center;
+    gap: 10px 30px;
+    padding: 5px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    background-color: rgba(177, 68, 68);
+    border: 2px solid rgb(253,183,106);
+    width: calc(min(100%, 1400px));
+}
+
+.iconeSite {
+    background-image: URL(../images/favicon.ico);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.iconePastille {
+    font-size:30px !important;
+    cursor: pointer;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(6, 7, 3);
+    -webkit-text-fill-color: white;
+}
+
+.menuTexte {
+    font-size: 1em;
+    cursor: pointer;
+    font-family: "Ubuntu Condensed";
+    font-weight: bold;
+}
+
+.menuGrid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menuGrid:hover,
+.menuGrid:hover .iconePastille {
+    -webkit-text-fill-color: rgb(136,195,136);
+}
+
+.menuGrid:active,
+.menuGrid:active .iconePastille {
+    -webkit-text-fill-color: rgb(209, 56, 56);
+}
+
+.selection,
+.selection .iconePastille {
+    -webkit-text-fill-color: rgb(253,183,106);
+}
+
+.menuBuffer {
+    height: 120px;
+}
+
+
+@media screen and (max-width:600px) {
+    .menuTexte {
+        display: none;
+    }
+    .menuGrid{
+        gap: 10px;
+    }
+    .iconePastille {
+        font-size:50px !important;
+        cursor: pointer;
+        -webkit-text-stroke-width: 1px;
+    }
+    .menuBuffer {
+        height: 150px;
+    }
+}
+

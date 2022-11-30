@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Convergence");
+@import url("https://fonts.googleapis.com/css?family=Rakkas");
+
+body{
+    background-image: url(../images/tropical.png);    
+}
+.main{
+    margin: auto;
+    max-width: 1400px;
+}
+.teinte {
+    background-color: rgba(61, 151, 38, 0.527);
+    margin: 0px;
+    height: 100vh;
+}
+
+.stretch{
+    height: 130vh !important;
+}
+
+.indexContenant{
+    font-size: 2em;
+    text-align: justify;
+    font-family: "Convergence";
+    color:rgb(177,68,68);
+    background-color: rgb(253,183,106);
+    border:2px solid rgb(177,68,68);
+    border-radius: 30px;
+    padding: 20px;
+}
+.centrer{
+    text-align: center !important;
+}
+
+.souligner{
+    text-decoration: underline;
+}
+
+.sautdeLigne20px{
+    margin-top: 20px;
+}
+
+.agrandirPolice{
+    font-size: 1.5em;
+}
+
+.aloha{
+    display: flex;
+    justify-content: space-between;
+}
+.aloha img{
+    width: 150px;
+    height: 150px;
+}
+

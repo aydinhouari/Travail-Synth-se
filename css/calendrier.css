@@ -1,0 +1,96 @@
+.contenantPrincipal {
+  font-family: "Convergence";
+  background-color: rgb(253, 183, 106);
+  border: 2px solid rgb(177, 68, 68);
+  border-radius: 30px;
+  padding: 10px;
+}
+.contenuCalendrier {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.titreCalendrier {
+  font-size: 3em;
+  font-family: "Rakkas" !important;
+  color: rgb(177, 68, 68);
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  text-shadow: rgb(177, 68, 68) 1px 0 10px;
+}
+
+.mois {
+  background-color: rgb(177, 68, 68);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.titreMois {
+  font-size: 1.5em;
+}
+
+.jours,
+.numeros {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.numeros {
+  margin-top: 0.5em !important;
+  font-weight: lighter !important;
+  margin-left: 5px;
+}
+
+.jours {
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: black;
+  gap: 5px;
+}
+
+.feries {
+  color: rgb(136, 195, 136);
+  font-weight: bold;
+}
+.fetesGenerales {
+  color: rgb(238, 182, 61);
+  font-weight: bold;
+}
+.heuresSaisons {
+  color: rgb(57, 127, 231);
+  font-weight: bold;
+}
+.hawaiiHoliday {
+  color: rgb(230, 107, 175);
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+.c1 {
+  background-color: rgb(136, 195, 136);
+}
+.c2 {
+  background-color: rgb(238, 182, 61);
+}
+.c3 {
+  background-color: rgb(57, 127, 231);
+}
+.c4 {
+  background-color: rgb(230, 107, 175);
+}
