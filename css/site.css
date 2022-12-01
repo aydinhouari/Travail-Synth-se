@@ -22,8 +22,12 @@ body {
 }
 
 .stretchHistoire {
-  height: 210vh !important;
+  height: 250vh !important;
 }
+
+.stretchAbout {
+    height: 140vh !important;
+  }
 
 .siteContenant {
   font-size: 2em;
@@ -64,7 +68,6 @@ body {
 
 .contenantHistoire {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
 }
