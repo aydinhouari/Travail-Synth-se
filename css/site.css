@@ -27,7 +27,11 @@ body {
 
 .stretchAbout {
     height: 140vh !important;
-  }
+}
+
+.stretchLangues {
+  height: 160vh !important;
+}
 
 .siteContenant {
   font-size: 2em;
@@ -173,3 +177,4 @@ body {
     border: 5px solid rgba(177, 68, 68, 0.582);
   }
 }
+
