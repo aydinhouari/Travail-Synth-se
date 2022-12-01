@@ -39,6 +39,10 @@ body {
   border-radius: 30px;
   padding: 20px;
 }
+.petiteLargeur{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 .centrer {
   text-align: center !important;
