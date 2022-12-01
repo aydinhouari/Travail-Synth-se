@@ -33,6 +33,10 @@ body {
   height: 160vh !important;
 }
 
+.stretchDiapo{
+  height: 140vh !important;
+}
+
 .siteContenant {
   font-size: 2em;
   text-align: justify;
