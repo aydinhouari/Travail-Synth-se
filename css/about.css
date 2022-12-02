@@ -1,0 +1,33 @@
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .presentation a {
+    text-decoration: none;
+    background-color: rgb(136, 195, 136);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .presentation a:hover {
+    color: rgb(253, 183, 106);
+    background-color: rgb(177, 68, 68);
+  }
+  .photoMoi {
+    background-size: cover;
+    width: 30%;
+    border-radius: 50px;
+    padding: 3px;
+    border: 10px solid rgba(177, 68, 68, 0.582);
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width: 850px) {
+    .photoMoi {
+      width: 50%;
+      border: 5px solid rgba(177, 68, 68, 0.582);
+    }
+  }

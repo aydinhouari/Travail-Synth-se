@@ -78,107 +78,10 @@ body {
   height: 150px;
 }
 
-.contenantHistoire {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.boite {
-  display: flex;
-  align-items: center;
-}
-
-.contenantHistoire img {
-  width: 50%;
-  height: 50%;
-  padding: 20px;
-  border-radius: 30px;
-}
-
-.contenantHistoire p {
-  font-size: 0.5em;
-}
-
 .titrePrincipal {
   font-size: 1.5em;
   font-family: "Rakkas";
   text-align: center;
   font-weight: bold !important;
-}
-
-.reverse {
-  flex: auto;
-}
-
-.boite p a {
-  text-decoration: none;
-  color: white;
-  background-color: rgb(136, 195, 136);
-  padding: 5px;
-  border-radius: 10px;
-}
-
-.boite p a:hover {
-  color: rgb(253, 183, 106);
-  background-color: rgb(177, 68, 68);
-}
-
-.presentation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.presentation a {
-  text-decoration: none;
-  background-color: rgb(136, 195, 136);
-  color: white;
-  padding: 5px;
-  border-radius: 10px;
-}
-
-.presentation a:hover {
-  color: rgb(253, 183, 106);
-  background-color: rgb(177, 68, 68);
-}
-.photoMoi {
-  background-size: cover;
-  width: 30%;
-  border-radius: 50px;
-  padding: 3px;
-  border: 10px solid rgba(177, 68, 68, 0.582);
-  margin-top: 20px;
-}
-
-@media screen and (max-width: 750px) {
-  .contenantHistoire .siteContenant {
-    font-size: 1.5em;
-    text-align: justify;
-    font-weight: bold;
-  }
-  .contenantHistoire img {
-    width: 60%;
-    height: 60%;
-  }
-}
-@media screen and (max-width: 500px) {
-  .boite {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.2em;
-  }
-  .contenantHistoire img {
-    width: 90%;
-  }
-  .reverse {
-    flex-direction: column-reverse;
-  }
-}
-@media screen and (max-width: 850px) {
-  .photoMoi {
-    width: 50%;
-    border: 5px solid rgba(177, 68, 68, 0.582);
-  }
 }
 
