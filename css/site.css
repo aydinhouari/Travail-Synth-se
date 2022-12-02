@@ -26,14 +26,14 @@ body {
 }
 
 .stretchAbout {
-    height: 140vh !important;
+  height: 140vh !important;
 }
 
 .stretchLangues {
   height: 160vh !important;
 }
 
-.stretchDiapo{
+.stretchDiapo {
   height: 140vh !important;
 }
 
@@ -47,9 +47,10 @@ body {
   border-radius: 30px;
   padding: 20px;
 }
-.petiteLargeur{
-    margin-left: 100px;
-    margin-right: 100px;
+
+.petiteLargeur {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .centrer {
@@ -84,4 +85,3 @@ body {
   text-align: center;
   font-weight: bold !important;
 }
-
