@@ -48,6 +48,14 @@ body {
   padding: 20px;
 }
 
+ul{
+  margin: 5%;
+  font-size: 0.8em;
+}
+li{
+  margin-bottom: 10px;
+}
+
 .petiteLargeur {
   margin-left: 100px;
   margin-right: 100px;
